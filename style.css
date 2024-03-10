@@ -84,6 +84,24 @@ nav{
     outline: none;
     border: 0;
 }
+.result-box{
+    position: absolute;
+    top: 48px;
+    width: 320px;
+    background: #fff;
+}
+.result-box ul{
+   border-top: 1px solid #999;
+}
+.result-box ul li{
+    list-style: none;
+    padding:15px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.result-box ul li:hover{
+    background: #e9f3ff;
+}
 .container{
     display: flex;
     justify-content: space-between;
