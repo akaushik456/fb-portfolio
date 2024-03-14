@@ -11,6 +11,7 @@ var availableKeywords = [
     'chirag kaushik'
 ];
 var resultBox = document.querySelector(".result-box");
+var resultText = document.querySelector(".result-text");
 var inputBox = document.getElementById("input-box");
 
 inputBox.onkeyup = function(){
