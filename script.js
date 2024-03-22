@@ -28,11 +28,23 @@ else{
     localStorage.setItem("theme", "light");
 }
 
-
-
 let time = document.getElementById("current-time");
 
 setInterval(() => {
     let d = new Date();
     time.innerHTML = d.toLocaleTimeString();
+},1000);
+
+let time1 = document.getElementById("current-time-1");
+
+setInterval(() => {
+    let d = new Date();
+    time1.innerHTML = d.toLocaleTimeString();
+},1000);
+
+let time2 = document.getElementById("current-time-2");
+
+setInterval(() => {
+    let d = new Date();
+    time2.innerHTML = d.toLocaleTimeString();
 },1000);

@@ -624,7 +624,7 @@ nav{
 }
 .friends-box p{
     position: absolute;
-    font-size: 14px;
+    font-size: 12px;
     bottom: 0;
     left: 0;
 }
@@ -765,6 +765,7 @@ nav{
     position: absolute;
     top: 70px;
     right: 20px;
+    left: 30px;
     cursor: pointer;
   }
   
