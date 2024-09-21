@@ -9,7 +9,7 @@ $(document).ready(function() {
     // handle events
     imgCont.on('click', function() {
       var img_src = $(this).children('img').attr('src');
-      imgPopup.children('img').attr('src', img_src);
+      imgPopup.children('img').attr('src', img_src); 
       imgPopup.addClass('opened');
     });
   
